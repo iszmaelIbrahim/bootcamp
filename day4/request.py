@@ -19,7 +19,7 @@ print(r.text)
 #post request
 # {
 #   "args": {}, 
-#   "data": "", 
+#   "data": "",
 #   "files": {}, 
 #   "form": {
 #     "key1": "Melaka", 

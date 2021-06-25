@@ -18,17 +18,17 @@ client = Client(account_sid, auth_token)
 #                               to='+60134457029'
 #                           )
 
-# message = client.messages.create(
-#                               body="Hi AA, i'm ismail",
-#                               from_='+12532378250',
-#                               to='+60124290640'
-#                           )
+message = client.messages.create(
+                              body="Hi AA, i'm ismail",
+                              from_='+12532378250',
+                              to='+60124290640'
+                          )
 
-call = client.calls.create(
-                        url='http://demo.twilio.com/docs/voice.xml',
-                        from_='+12532378250',
-                        to='+60169466484'
-                    )
+# call = client.calls.create(
+#                         url='http://demo.twilio.com/docs/voice.xml',
+#                         from_='+12532378250',
+#                         to='+60169466484'
+#                     )
 
 
 print(message.sid)
